@@ -8,7 +8,7 @@ const Weather = () => {
 
   const handleSearch = async () => {
     try {
-      const response = await axios.get(`http://localhost:8000/api/weather?city=${city}`)
+      const response = await axios.get(`https://weatherapp-server2.onrender.com/api/weather?city=${city}`)
     
       setWeatherData(response.data);
       console.log(response.data);
