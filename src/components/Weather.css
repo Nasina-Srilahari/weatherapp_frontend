@@ -1,0 +1,41 @@
+
+div.main{
+   text-align: center;
+}
+
+button{
+    background-color: rgb(20, 212, 212);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: rgb(15, 206, 206);
+    padding-top:3px ;
+    padding-bottom: 3px;
+}
+div input{
+    color: rgb(83, 191, 191);
+    padding-top:3px ;
+    padding-bottom: 3px;
+    border-radius:5px ;
+    font-weight: 550;
+}
+
+div.details{
+    margin-top:30px;
+    flex-direction: column;
+    box-shadow: 5px;
+    min-width: 30%;
+    height: 250px;
+    background-color: rgb(208, 245, 245);
+    display:inline-block;
+    border-radius:20px;
+    
+
+}
+div table.table1{
+    align-items: center;
+    text-align:left;
+    align-content: center;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:30px;
+}
